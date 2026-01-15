@@ -1,4 +1,4 @@
-# src/data_cleaner_gui/app.py
+# src/data_cleaner_minitool/app.py
 from __future__ import annotations
 
 import os
@@ -366,5 +366,6 @@ class MainWindow(QMainWindow):
 
       
        
+
 
     
