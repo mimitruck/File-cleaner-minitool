@@ -1,4 +1,4 @@
-# src/data_cleaner_gui/core.py
+# src/data_cleaner_minitool/core.py
 from __future__ import annotations
 
 import os
@@ -111,3 +111,4 @@ def export_df(df: pd.DataFrame, path: str, fmt: ExportFmt) -> None:
         df.to_excel(path, index=False)
     else:
         raise ValueError(f"Unknown export format: {fmt}")
+
