@@ -1,4 +1,4 @@
-# src/data_cleaner_gui/__main__.py
+# src/data_cleaner_minitool/__main__.py
 import sys
 from PySide6.QtWidgets import QApplication
 
@@ -14,3 +14,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
