@@ -1,0 +1,16 @@
+# src/data_cleaner_gui/__main__.py
+import sys
+from PySide6.QtWidgets import QApplication
+
+from .app import MainWindow
+
+
+def main() -> None:
+    app = QApplication(sys.argv)
+    win = MainWindow()
+    win.show()
+    sys.exit(app.exec())
+
+
+if __name__ == "__main__":
+    main()
